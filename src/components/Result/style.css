@@ -1,0 +1,12 @@
+.result {
+  margin-top: 26px;
+  align-self: flex-end;
+}
+
+/* @media */
+
+@media (max-width: 594px) {
+  .result {
+    margin-top: 17px;
+  }
+}

@@ -1,0 +1,43 @@
+.form__text,
+.form__number {
+  width: 100%;
+}
+
+.form__text {
+  min-width: 319px;
+}
+
+.form__text,
+.form__number {
+  padding-left: 5px;
+  height: 45px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid hwb(0 80% 20% / 0.8);
+}
+
+.form__text::placeholder,
+.form__number ::placeholder {
+  color: rgba(77, 76, 76, 0.404);
+}
+
+/* @media */
+
+@media (max-width: 740px) {
+  .form__text {
+    min-width: 255px;
+  }
+}
+
+@media (max-width: 594px) {
+  .form__text,
+  .form__number {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .form__text {
+    max-width: 365px;
+  }
+}

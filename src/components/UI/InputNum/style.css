@@ -1,0 +1,24 @@
+.form__number {
+  width: 100%;
+}
+
+.form__number {
+  margin-bottom: 6px;
+  padding-left: 5px;
+  height: 45px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid hwb(0 80% 20% / 0.8);
+}
+
+.form__number ::placeholder {
+  color: rgba(77, 76, 76, 0.404);
+}
+
+/* @media */
+
+@media (max-width: 594px) {
+  .form__number {
+    width: 100%;
+  }
+}

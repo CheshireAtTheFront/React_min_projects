@@ -1,0 +1,39 @@
+.block-titel {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-titel__titel {
+  margin-bottom: 39px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+/* @media */
+
+@media (max-width: 594px) {
+  .block-titel {
+    align-self: flex-start;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 425px) {
+  .block-titel {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .block-titel__titel {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .block-titel__titel {
+    font-size: 1.7rem;
+  }
+}

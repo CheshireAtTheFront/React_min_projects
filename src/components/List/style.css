@@ -1,0 +1,101 @@
+.list-expenses__list {
+  width: 100%;
+}
+
+.list-expenses {
+  display: flex;
+  justify-content: space-between;
+  line-height: 45px;
+}
+
+.item {
+  width: 90%;
+}
+
+.list-expenses__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-expenses__text {
+  text-align: start;
+}
+
+.list-expenses__date,
+.list-expenses__price {
+  text-align: center;
+}
+
+.list-expenses__text,
+.list-expenses__date,
+.list-expenses__price {
+  width: 40%;
+}
+
+.block-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 56px;
+}
+
+/* @media */
+
+@media (max-width: 594px) {
+  .list-expenses {
+    line-height: 30px;
+  }
+
+  .list-expenses__item {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .list-expenses__text {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .list-expenses__price {
+    width: 100%;
+    text-align: right;
+  }
+
+  .block-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+    width: 100%;
+    height: 48px;
+  }
+}
+
+@media (max-width: 526px) {
+  .list-expenses__text {
+    width: 50%;
+  }
+
+  .list-expenses {
+    line-height: 25px;
+  }
+
+  .list-expenses__text {
+    width: 67%;
+  }
+
+  .block-btn {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .block-btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 384px) {
+  .list-expenses__text {
+    width: 59%;
+  }
+}
